@@ -14,7 +14,7 @@ const Contact = () => {
           {/* Contact Details */}
           <div className="w-full lg:w-1/3 p-10 bg-gray-900 text-white flex flex-col justify-center">
             <h3 className="text-2xl font-bold mb-8">Store Information</h3>
-            
+
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center shrink-0">
@@ -50,15 +50,15 @@ const Contact = () => {
             </div>
 
             <div className="mt-12 flex gap-4">
-               <Button 
-                variant="primary" 
+              <Button
+                variant="primary"
                 className="w-full justify-center"
                 onClick={() => window.open(`tel:${BUSINESS_INFO.phone}`)}
               >
                 Call Now
               </Button>
-               <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 className="w-full justify-center !border-gray-600 !text-gray-300 hover:!bg-gray-800"
                 onClick={() => window.open(`https://maps.google.com/?q=${encodeURIComponent(BUSINESS_INFO.plusCode)}`)}
               >
@@ -72,7 +72,7 @@ const Contact = () => {
             <iframe
               title="Map"
               className="absolute inset-0 w-full h-full border-0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.5683955688!2d75.7335!3d11.8689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDUyJzA4LjAiTiA3NcKwNDQnMDAuNiJF!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15715.37255476606!2d76.3284!3d10.0261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDAxJzM0LjAiTiA3NsKwMTknNDIuMiJF!5e0!3m2!1sen!2sin!4v1634567890123!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"
             ></iframe>

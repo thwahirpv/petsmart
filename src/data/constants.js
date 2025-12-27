@@ -5,12 +5,12 @@ export const BUSINESS_INFO = {
   tagline: "It’s all about pets",
   rating: 4.4,
   reviewCount: 65,
-  phone: "099956 62670",
-  address: "Thondiyil – Manjalampuram Rd, Chevadikunnu, Peravoor, Kerala 670673",
-  plusCode: "VPXQ+H8 Peravoor, Kerala",
+  phone: "+91 98765 43210",
+  address: "123 Pet Street, Animal City, Kerala 123456",
+  plusCode: "XX00+XX Animal City, Kerala",
   hours: "9:00 AM - 9:00 PM",
-  descriptionShort: "PetSmart is a trusted pet store in Peravoor offering a wide range of pets, food, accessories, and supplies. We provide grooming, exotic pets, and friendly guidance.",
-  descriptionLong: "PetSmart is a chain-style pet shop featuring a range of pets, supplies, and food. Most locations also offer grooming, boarding, and other services. At this Peravoor store, customers can find a wide variety of pets, premium food, toys, cages, aquariums, and accessories — all supported by knowledgeable and friendly staff focused on pet well-being.",
+  descriptionShort: "PetSmart is a trusted pet store offering a wide range of pets, food, accessories, and supplies. We provide grooming, exotic pets, and friendly guidance.",
+  descriptionLong: "PetSmart is a chain-style pet shop featuring a range of pets, supplies, and food. Most locations also offer grooming, boarding, and other services. At our store, customers can find a wide variety of pets, premium food, toys, cages, aquariums, and accessories — all supported by knowledgeable and friendly staff focused on pet well-being.",
 };
 
 export const SERVICES = [
