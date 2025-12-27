@@ -5,8 +5,10 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    @apply overflow-x-hidden;
   }
+
   body {
-    @apply text-gray-800 bg-gray-50;
+    @apply text-gray-800 bg-gray-50 overflow-x-hidden;
   }
 }
